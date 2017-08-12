@@ -9,8 +9,9 @@ def login():
     return render_template(
         'login.html',
         title='Sign In',
-        form = form
+        form=form
     )
+
 
 @app.route('/')
 @app.route('/index')
